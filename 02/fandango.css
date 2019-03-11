@@ -1,0 +1,126 @@
+Fandango{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: arial;
+}
+Date{
+  font-size: 20px;
+  font-weight: bold;
+}
+City{
+  font-weight: bold;
+  font-size: 23px;
+  color:darkgreen;
+}
+StateCode{
+  font-weight: bold;
+  font-size: 23px;
+  color:darkgreen;
+}
+Name{
+  font-weight: bold;
+  font-size: 22px;
+  color: blue;
+}
+Movies { display: table; }
+Movie {
+  display: table-cell;
+  border: solid 1px;
+  color: darkblue;
+  text-align: center;
+  padding-right: 20px;
+  padding-left:20px;
+
+}
+Title {
+  font-weight: bold;
+  color: white;
+  background-color: #C32026;
+  display: block;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
+}
+Title::after {
+  content: "\A";
+    white-space: pre;
+}
+CompanyName{
+  color:lightblue;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: oblique;
+  border:4px SOLID lightblue;
+  text-decoration: overline;
+}
+Date::before{
+  content: "\A\A";
+    white-space: pre;
+}
+City::before{
+  content: "\A";
+    white-space: pre;
+}
+Name::before{
+  content: "\A";
+    white-space: pre;
+}
+Address::before{
+  content: "\A";
+    white-space: pre;
+}
+Note::before{
+  content: "\A";
+    white-space: pre;
+}
+Duration{
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  color: darkblue;
+}
+Duration::after {
+  content: "\A";
+    white-space: pre;
+}
+MovieCategory::before{
+  content: "\A";
+    white-space: pre;
+}
+NewLabel::before{
+  content: "\ANew Movie: ";
+    white-space: pre;
+}
+ClosedCaption::before{
+  content: "\A ClosedCaptions: ";
+    white-space: pre;
+}
+NoPasses::before{
+  content: "\ANo Passes: ";
+    white-space: pre;
+}
+AdditionDetails::before{
+  content: "\A";
+    white-space: pre;
+}
+Language::before{
+  content: "\A Language: ";
+    white-space: pre;
+}
+Time {
+  font-weight: bold;
+  border: solid 1px;
+}
+Time[type="afternoon"]{
+  color: green;
+}
+Time[type="evening"]{
+  color: darkorange;
+}
+Time[type="night"]{
+  color: darkred;
+}
+Note{
+  font-style: oblique;
+  color: darkgreen;
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="Fandango">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element name="CompanyName" type="xsd:string"/>
+      <xsd:element name="Date" type="xsd:date"/>
+      <xsd:element name="Location" maxOccurs="unbounded">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="City" type="xsd:string"/>
+            <xsd:element name="StateCode" type="xsd:string"/>
+            <xsd:element name="Theater" maxOccurs="unbounded">
+              <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="Name" type="xsd:string"/>
+                <xsd:element name="Address">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                    <xsd:element name="Street" type="xsd:string"/>
+                    <xsd:element name="Zip" type="xsd:string"/>
+                  </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="Note" type="xsd:string"/>
+                <xsd:element name="Movies">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                    <xsd:element name="Movie" maxOccurs="unbounded">
+                      <xsd:complexType>
+                      <xsd:sequence>
+                      <xsd:element name="Title" type="xsd:string"/>
+                      <xsd:element name="Duration" type="xsd:string"/>
+                      <xsd:element name="Time" maxOccurs="unbounded">
+                        <xsd:complexType mixed="true">
+                          <xsd:attribute name="type" use="required">
+                            <xsd:simpleType>
+                              <xsd:restriction base="xsd:string">
+                                <xsd:enumeration value="morning"/>
+                                <xsd:enumeration value="afternoon"/>
+                                <xsd:enumeration value="evening"/>
+                                <xsd:enumeration value="night"/>
+                              </xsd:restriction>
+                            </xsd:simpleType>
+                          </xsd:attribute>
+                        </xsd:complexType>
+                      </xsd:element>
+                      <xsd:element name="MovieCategory">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="(R)"/>
+                            <xsd:enumeration value="(PG)"/>
+                            <xsd:enumeration value="(PG-13)"/>
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="NewLabel">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="Yes"/>
+                            <xsd:enumeration value="No"/>
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="ClosedCaption">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="Yes"/>
+                            <xsd:enumeration value="No"/>
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="NoPasses">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="Yes"/>
+                            <xsd:enumeration value="No"/>
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="AdditionDetails" type="xsd:string" minOccurs="0"/>
+                      <xsd:element name="Language" type="xsd:string"/>
+                  </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="fandango.css"?>
+<!DOCTYPE Fandango SYSTEM "fandango.dtd">
+<Fandango>
+	<CompanyName>FANDANGO</CompanyName>
+	<Date>9/26/2018</Date>
+	<Location>
+		<City>Rochester</City>
+		<StateCode>NY</StateCode>
+		<Theater>
+			<Name>Movies 10</Name>
+			<Address>
+				<Street>2613 West Henrietta Road</Street>
+				<Zip>14623</Zip>
+			</Address>
+			<Note>Text to FNDGO (36346) from your wireless device to get this theater's showtimes.</Note>
+			<Movies>
+				<Movie>
+					<Title>The Happytime Murders</Title>
+					<Duration>1 hr 31 min</Duration>
+					<Time type="afternoon">12:25p</Time>
+					<Time type="evening">5:45p</Time>
+					<Time type="evening">7:50p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>No</NewLabel>
+					<ClosedCaption>No</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>Alpha</Title>
+					<Duration>1 hr 37 min</Duration>
+					<Time type="afternoon">12:20p</Time>
+					<Time type="afternoon">2:35p</Time>
+					<Time type="evening">4:50p</Time>
+					<Time type="evening">7:15p</Time>
+					<MovieCategory>(PG-13)</MovieCategory>
+					<NewLabel>No</NewLabel>
+					<ClosedCaption>No</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>Mile 22</Title>
+					<Duration>1 hr 35 min</Duration>
+					<Time type="afternoon">12:05p</Time>
+					<Time type="afternoon">3:35p</Time>
+					<Time type="evening">7:25p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>No</NewLabel>
+					<ClosedCaption>No</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>Slender Man</Title>
+					<Duration>1 hr 33 min</Duration>
+					<Time type="evening">7:40p</Time>
+					<MovieCategory>(PG-13)</MovieCategory>
+					<NewLabel>No</NewLabel>
+					<ClosedCaption>No</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>The Spy Who Dumped Me</Title>
+					<Duration>1 hr 56 min</Duration>
+					<Time type="afternoon">2:30p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>No</NewLabel>
+					<ClosedCaption>No</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<Language>English</Language>
+				</Movie>
+			</Movies>
+		</Theater>
+		<Theater>
+			<Name>Regal Culver Ridge Plaza 16</Name>
+			<Address>
+				<Street>2255 Ridge Road East</Street>
+				<Zip>14622</Zip>
+			</Address>
+			<Note>Text to FNDGO (36346) from your wireless device to get this theater's showtimes.</Note>
+			<Movies>
+				<Movie>
+					<Title>Life Itself (2018)</Title>
+					<Duration>1 hr 58 min</Duration>
+					<Time type="afternoon">1:45p</Time>
+					<Time type="evening">4:30p</Time>
+					<Time type="evening">7:15p</Time>
+					<Time type="night">10:00p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>Yes</NewLabel>
+					<ClosedCaption>Yes</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>The House with a Clock in its Walls</Title>
+					<Duration>1 hr 45 min</Duration>
+					<Time type="afternoon">2:15p</Time>
+					<Time type="evening">4:55p</Time>
+					<Time type="evening">7:45p</Time>
+					<Time type="night">10:20p</Time>
+					<MovieCategory>(PG)</MovieCategory>
+					<NewLabel>Yes</NewLabel>
+					<ClosedCaption>Yes</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<AdditionDetails>Accessibility Devices Available</AdditionDetails>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>A Simple Favor</Title>
+					<Duration>1 hr 56 min</Duration>
+					<Time type="afternoon">1:20p</Time>
+					<Time type="evening">4:15p</Time>
+					<Time type="evening">7:20p</Time>
+					<Time type="night">10:05p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>No</NewLabel>
+					<ClosedCaption>Yes</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<AdditionDetails>Accessibility Devices Available</AdditionDetails>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>The Predator (2018)</Title>
+					<Duration>1 hr 41 min</Duration>
+					<Time type="afternoon">1:30p</Time>
+					<Time type="evening">4:05p</Time>
+					<Time type="evening">7:00p</Time>
+					<Time type="night">9:40p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>No</NewLabel>
+					<ClosedCaption>Yes</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<AdditionDetails>Accessibility Devices Available</AdditionDetails>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>White Boy Rick</Title>
+					<Duration>1 hr 51 min</Duration>
+					<Time type="afternoon">1:55p</Time>
+					<Time type="evening">4:35p</Time>
+					<Time type="evening">7:25p</Time>
+					<Time type="night">10:15p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>Yes</NewLabel>
+					<ClosedCaption>Yes</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<AdditionDetails>Accessibility Devices Available</AdditionDetails>
+					<Language>English</Language>
+				</Movie>
+			</Movies>
+		</Theater>
+		<Theater>
+			<Name>Regal Henrietta Stadium 18</Name>
+			<Address>
+				<Street>525 Marketplace Drive</Street>
+				<Zip>14623</Zip>
+			</Address>
+			<Note>Text to FNDGO (36346) from your wireless device to get this theater's showtimes.</Note>
+			<Movies>
+				<Movie>
+					<Title>Rebel Without a Cause (1955) presented by TCM</Title>
+					<Duration>2 hr 5 min</Duration>
+					<Time type="afternoon">2:00p</Time>
+					<Time type="evening">7:00p</Time>
+					<MovieCategory>(PG-13)</MovieCategory>
+					<NewLabel>Yes</NewLabel>
+					<ClosedCaption>No</ClosedCaption>
+					<NoPasses>Yes</NoPasses>
+					<AdditionDetails>Alternative Content</AdditionDetails>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>Assassination Nation</Title>
+					<Duration>1 hr 50 min</Duration>
+					<Time type="afternoon">1:20p</Time>
+					<Time type="evening">4:30p</Time>
+					<Time type="evening">7:20p</Time>
+					<Time type="night">10:10p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>Yes</NewLabel>
+					<ClosedCaption>Yes</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<AdditionDetails>Accessibility Devices Available</AdditionDetails>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>Fahrenheit 11/9</Title>
+					<Duration>2 hr 6 min</Duration>
+					<Time type="afternoon">3:10p</Time>
+					<Time type="evening">6:20p</Time>
+					<Time type="night">9:35p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>Yes</NewLabel>
+					<ClosedCaption>No</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>Life Itself (2018)</Title>
+					<Duration>1 hr 58 min</Duration>
+					<Time type="afternoon">1:10p</Time>
+					<Time type="evening">4:05p</Time>
+					<Time type="evening">7:00p</Time>
+					<Time type="night">9:50p</Time>
+					<MovieCategory>(R)</MovieCategory>
+					<NewLabel>Yes</NewLabel>
+					<ClosedCaption>Yes</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<Language>English</Language>
+				</Movie>
+				<Movie>
+					<Title>The House with a Clock in its Walls</Title>
+					<Duration>1 hr 45 min</Duration>
+					<Time type="afternoon">12:40p</Time>
+					<Time type="afternoon">1:40p</Time>
+					<Time type="afternoon">3:30p</Time>
+					<Time type="evening">4:30p</Time>
+					<Time type="evening">6:20p</Time>
+					<Time type="evening">7:20p</Time>
+					<Time type="night">10:00p</Time>
+					<MovieCategory>(PG)</MovieCategory>
+					<NewLabel>Yes</NewLabel>
+					<ClosedCaption>Yes</ClosedCaption>
+					<NoPasses>No</NoPasses>
+					<AdditionDetails>Accessibility Devices Available</AdditionDetails>
+					<Language>English</Language>
+				</Movie>
+			</Movies>
+		</Theater>
+	</Location>
+</Fandango>

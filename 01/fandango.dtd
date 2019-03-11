@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!ELEMENT Fandango (CompanyName, Date, Location)>
+   <!ELEMENT CompanyName (#PCDATA)>
+	 <!ELEMENT Date (#PCDATA)>
+	 <!ELEMENT Location (City, StateCode, Theater+)>
+	 <!ELEMENT City (#PCDATA)>
+	 <!ELEMENT StateCode (#PCDATA)>
+	 <!ELEMENT Theater (Name, Address, Note, Movies)>
+	 <!ELEMENT Name (#PCDATA)>
+	 <!ELEMENT Address (Street, Zip)>
+	 <!ELEMENT Street (#PCDATA)>
+	 <!ELEMENT Zip (#PCDATA)>
+	 <!ELEMENT Note (#PCDATA)>
+	 <!ELEMENT Movies (Movie+)>
+	 <!ELEMENT Movie (Title, Duration, Time+, MovieCategory, NewLabel, ClosedCaption, NoPasses, AdditionDetails?, Language )>
+	 <!ELEMENT Title (#PCDATA)>
+	 <!ELEMENT Duration (#PCDATA)>
+	 <!ELEMENT Time (#PCDATA)>
+	 <!ATTLIST Time type (morning | afternoon | evening | night) #REQUIRED>
+	 <!ELEMENT MovieCategory (#PCDATA)>
+	 <!ELEMENT NewLabel (#PCDATA)>
+	 <!ELEMENT ClosedCaption (#PCDATA)>
+	 <!ELEMENT NoPasses (#PCDATA)>
+	 <!ELEMENT AdditionDetails (#PCDATA)>
+	 <!ELEMENT Language (#PCDATA)>
